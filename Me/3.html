@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Information</title>
+</head>
+<body>
+
+    <h1>Enter Your Details to Place Order</h1>
+
+    <form action="submit_order.html" method="post">
+        <label>Full Name:</label>
+        <input type="text" name="customer_name" required><br><br>
+
+        <label>Email:</label>
+        <input type="email" name="customer_email" required><br><br>
+
+        <label>Phone Number:</label>
+        <input type="tel" name="customer_phone" required><br><br>
+
+        <label>Delivery Address:</label><br>
+        <textarea name="customer_address" rows="4" cols="30" required></textarea><br><br>
+
+        <h2>Select Payment Method</h2>
+        <input type="radio" name="payment_method" value="Cash on Delivery" required> Cash on Delivery<br>
+        <input type="radio" name="payment_method" value="Credit/Debit Card"> Credit/Debit Card<br>
+        <input type="radio" name="payment_method" value="UPI/Online Payment"> UPI/Online Payment<br><br>
+
+       <button>
+    <a href="4.html">Placeorder
+</a>
+</button>    <p><a href="2.html">Back to Order Page</a></p>
+
+</body>
+</html>
